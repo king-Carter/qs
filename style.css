@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+    display: flex;  
+    justify-content:space-between;
+    padding: 30px 20px;
+    max-width:100%;
+}
+#bar{
+    
+    justify-content: center;
+    align-items: center;
+}    
+
+    
+
+#logo{
+    background-image: url(logo.svg);
+    height:100px;
+    width: 110px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+
+}
+#firstbutton{
+    color:hsl(321, 100%, 78%);
+    background-color: #ffffff;
+    border: 2px solid hsl(321, 100%, 78%);
+    width:100px;
+    height:32px;
+    border-radius: 30px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#content{
+    padding: 0px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width:100%;
+}
+h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+p{
+    color:#413f3f;
+}
+.secondbutton{
+    color: #ffffff;
+    background-color: #ff69b4;
+    height:auto;
+    padding:10px 30px ;
+    max-width:230px;
+    border: 1px solid transparent;
+    border-radius: 22px;
+    font-size: 16px;
+    margin:0px 0px 100px 0px;
+}
+.numbers{
+    display:flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width:178px;
+}
+.countings{
+    font-size: 70px;
+    font-weight: 900;
+    display:inline;
+}
+#countings1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#countings2{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-set-one{
+    width:30px;
+    
+}
+.para_below{
+    color:#5c5858;
+    font-size: 14px;
+    align-self: center;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 20px;
+    margin:50px 0px 15px 0px;
+}
+p{
+    font-size: 16px;
+}
+
+.main-image{
+    padding: 0px 30px; 
+ 
+}
+#screen_mockups{
+    
+    height: auto;
+    max-width:100%;
+    
+}
+
+.image-set-one{
+    
+    height:auto;
+    max-width: 100%;
+    
+}
+#article{
+    margin:30px 0px 40px 0px;
+}
+#partitontwo{
+    margin:100px 0px 100px 0px;
+}
+#partitonfour{
+    margin:100px 0px 100px 0px;
+}
+#partitonfive{
+    margin:0px 0px 200px 0px;
+}
+#lowerbutton{
+    margin:30px 0px 0px 0px
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:#ffffff;
+    background-color:hsl(192, 100%, 9%);
+    /* padding:100px 20px 20px 20px; */
+    
+}
+#footer_contents{
+    padding: 25px;
+}
+#footer-para{
+    color:#ffffff;
+    font-size: 14px;
+    margin:15px 0px 15px 0px
+}
+#bottom_elements{
+    
+    
+    display:flex;
+    flex-direction: column;
+    
+    align-items:center;
+
+}
+#box1{
+max-width:100%;
+
+}
+/* #curvetop{
+   
+    background-image: url(bg-section-bottom-desktop-1.svg);
+    max-width:100%;
+    background-repeat: no-repeat;
+    height:auto;
+    background-size: 100%;
+}
+#curve{
+    background-image: url(bg-footer-top-mobile.svg);
+    max-width: 100%;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin:0px;
+
+} */
+#footerlogo{
+    background-image: url(logo-white.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:30px;
+    width:180px;
+    margin:0px 0px 15px 0px;
+}
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+#email{
+    width:100%;
+    height:40px;
+    border:1px solid transparent;
+    border-radius:5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#subs{
+    background-color: #ff69b4;
+    color:#ffffff;
+    width:150px;
+    height:40px;
+    margin-top: 10px;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-size:16px;
+    align-self: flex-end;
+}
+#box2{
+    margin:70px 0px 0px 0px
+}
+#op{
+    margin:0px 0px 20px 0px;
+}
+.contact{
+    display: flex;
+    margin:10px 0px 15px 0px;
+    
+}
+.text{
+    margin:0px 0px 0px 15px;
+}
+#bottomicons{
+    display:flex;
+
+}
+.icons3{
+    font-size: 25px;
+    margin-right: 15px;
+}
